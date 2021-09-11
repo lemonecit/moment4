@@ -1,5 +1,4 @@
-@media only screen and (min-device-width : 220px) and (max-device-width : 480px) {
-    /* Styles */
+@media only screen and (min-width: 320px) and (max-width: 680px){
 
     body {
 
@@ -9,14 +8,22 @@
     }
 
 
-#search {
-    position: fixed;
-    background-color: #f00;
-height:100px;
+.search {
+        position: fixed;
+        background-color: #f00;
+        height:100px;
         width:100%;
         top:0;
 
 }
+
+
+.mobilmenu {
+
+    display: visible;
+
+}
+
 
 
 
@@ -36,8 +43,8 @@ margin-top:150px;
 
 
     .mobilmenu {
-
-
+text-align: center;
+background-color:red;
             visibility: visible;
 
 
@@ -54,7 +61,7 @@ margin-top:150px;
     }
 
 
-    @media only screen and (min-device-width:485px) and (max-device-width:1800px) {
+    @media only screen and (min-width:685px)  {
         /* Styles */
 
             .nomobilmenu {
@@ -64,25 +71,12 @@ margin-top:150px;
 
             }
 
+            .mobilmenu {
+                display: none;
+
+            }
+
 
             
         
         }
-
-
-        @media only screen  and (min-width : 470px) {
-            /* Styles */
-
-            .mobilmenu {
-
-                display: none;
-        
-            }
-
-
-
-
-            }
-
-
-
