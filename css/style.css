@@ -1,17 +1,25 @@
-@media only screen and (min-width: 320px) and (max-width: 680px){
+@media   (max-width: 500px){
 
-    body {
+  
 
-        margin:0;
-        padding:0;
+
+    #container {
+        background-color:#fff;
+        width:calc(960px-50);
+        margin:0 auto;
+        padding-left: 40px;
+        padding-right:40px;
+        padding-top:10px;
+        padding-bottom:10px;
 
     }
 
 
+
 .search {
         position: fixed;
-        background-color: #f00;
-        height:100px;
+        background-color:#854242;
+        height:60px;
         width:100%;
         top:0;
 
@@ -20,7 +28,12 @@
 
 .mobilmenu {
 
-    display: visible;
+    visibility: visible;
+    width: 100%;
+    height: 48px;
+    margin: 0px;
+    padding: 0px;
+
 
 }
 
@@ -29,8 +42,8 @@
 
 .header_partII {
 
-
-margin-top:150px;
+text-align: center;
+margin-top:100px;
 
 }
 
@@ -38,17 +51,12 @@ margin-top:150px;
     footer {
         background-color:#999999;
     text-align: center;
+    width:100%;
 
     }
 
 
-    .mobilmenu {
-text-align: center;
-background-color:red;
-            visibility: visible;
 
-
-    }
 
     .nomobilmenu {
 
@@ -56,27 +64,252 @@ background-color:red;
 
     }
 
+    #desktop_search, #surf_search  {
+
+
+        display: none;
+    }
+
 
 
     }
 
 
-    @media only screen and (min-width:685px)  {
+    @media (min-width: 500px) and (max-width: 800px) {
+
+
+        #container {
+            background-color:#fff;
+            width:calc(960px-200);
+            margin:0 auto;
+            padding-left: 40px;
+            padding-right:40px;
+            padding-top:10px;
+            padding-bottom:10px;
+
+        }
+
+  
+        .nomobilmenu {
+
+            visibility: visible;
+
+
+        }
+
+
+        .nomobilmenu ul li {
+
+
+            display: inline;
+        }
+
+
+    
+
+        #mobile_search, #desktop_search {
+
+        display: none;
+
+        }
+
+        .search form {
+
+
+            background-color:#854242;
+            height:80px;
+
+        }
+
+        .search input[type="search"]{
+
+            width:450px;
+
+        }
+
+        
+         .search input[type="submit"]{
+
+            width:300px;
+
+        }
+
+
+        .mobilmenu {
+            display: none;
+
+        }
+
+
+        .header_partII {
+
+            text-align: center;
+    
+            
+            }
+            
+
+            footer {
+                clear:both;
+                background-color:#999999;
+            text-align: center;
+            width:100%;
+            height:80px;
+        
+            }
+
+            .box1 {
+
+                float:left;
+                width:50%;
+
+            }
+
+        
+      }
+
+
+
+
+
+    @media  (min-width:800px)  {
+
+
+
         /* Styles */
 
-            .nomobilmenu {
+        h1 {
+            font-family: "Arial Black", Gadget, sans-serif ;
+            font-size: 26px;
+            color: #854242;
+            margin:0px;
+            padding:0px;
 
+        }
+
+        h2 {
+            padding: 0;
+            font-family: "Arial Black", Gadget, sans-serif;
+            font-size: 20px;
+            color: #854242;
+            margin: 0;
+            
+
+        }
+
+        #container {
+            background-color:#fff;
+            width:960px;
+            margin:0 auto;
+            padding-left: 40px;
+            padding-right:40px;
+            padding-top:10px;
+            padding-bottom:10px;
+
+        }
+
+
+            body {
+               
+                background-color: #ccc;
+
+            }
+
+
+            .nomobilmenu {
+          
                 visibility: visible;
+                border-bottom:5px solid #854242;
 
 
             }
+
+
+            .nomobilmenu ul li {
+
+
+                display: inline;
+            }
+
 
             .mobilmenu {
                 display: none;
 
             }
 
+            #surf_search, #mobile_search {
+
+                    display:none;
+
+            }
+
+            
+        .header_partII {
+
+            position: relative;
+            line-height: 53px;
+            text-align: center;
+            top: 20px;
+    
+            
+            }
+
+
+            .box1 {
+
+                float:left;
+                width:50%;
+
+            }
+
+            footer {
+                border-radius: 10px;
+                clear:both;
+                background-color:#999999;
+            text-align: center;
+            width:100%;
+            height:80px;
+        
+            }
+
+            #desktop_search {
+
+                bottom: 18px;
+                position: relative;
+                float: right;
+                margin: 0;
+                padding: 0;
+
+            }
+
+
+            input[type="search"] {
+
+                width:160px;
+
+            }
+            
+
 
             
         
         }
+
+
+        html,body {
+
+            margin:0;
+            padding:0;
+    
+        }
+
+
+        img {
+
+width: 100%;
+
+        }
+
+
+
+ 
