@@ -242,7 +242,7 @@ margin-bottom:20px;
         }
 
         .search form {
-
+            
             text-align: center;
             line-height: 50px;
             background-color: #854242;
@@ -252,14 +252,17 @@ margin-bottom:20px;
 
         .search input[type="search"]{
 
-            width:300px;
-
+            margin-left:10px;
+            margin-right:10px;
+            width : 60%
         }
 
         
          .search input[type="submit"]{
 
-            width:260px;
+            margin-left:10px;
+            margin-right:10px;
+            width : 30%
 
         }
 
