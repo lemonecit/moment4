@@ -3,18 +3,18 @@
 
     .search input[type="search"]{
 
-  width:60%;
-  margin-left:5%;
-  margin-right:5%;
+  width:65%;
+  margin-left:2px;
+  margin-right:2px;
 
 
     }
 
     .search input[type="submit"] {
 
-        width:30%;
-        margin-left:5%;
-        margin-right:5%;
+        width: 25%;
+        margin-left:2px;
+        margin-right:2px;
       
 
     }
