@@ -225,13 +225,18 @@ margin-bottom:20px;
         }
 
         .nomobilmenu ul li a {
+            padding-right: 10px;
+            font-size: 12px;
             display: block;
-            color:#666;
+            color: #666;
             text-align: center;
-            padding: 14px 16px;
+            /* padding: 10px 12px; */
             text-decoration: none;
-
-            text-transform:uppercase;
+            text-transform: uppercase;
+            /* margin: 0; */
+            /* padding: 0; */
+            padding-top: 10px;
+            padding-bottom: 10px;
 
             
 
@@ -505,14 +510,16 @@ margin-bottom:20px;
             
 
             footer span {
+                text-transform:capitalize;
 
                 color:white;
-                font-size:18px;
+                font-size:14px;
                 line-height:60px;
     
             }
 
             .box1 span {
+                font-size:16px;
 
                 display: block;
                 height: 60px;
@@ -526,7 +533,8 @@ margin-bottom:20px;
               }
             
               .box2 span {
-            
+                font-size:16px;
+
                 display: block;
                 height: 60px;
                 background-color: #854242;
