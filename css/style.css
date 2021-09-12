@@ -3,14 +3,19 @@
 
     .search input[type="search"]{
 
-    width:300px;
+  width:60%;
+  margin-left:5%;
+  margin-right:5%;
 
 
     }
 
     .search input[type="submit"] {
 
-width:100px;
+        width:30%;
+        margin-left:5%;
+        margin-right:5%;
+      
 
     }
 
