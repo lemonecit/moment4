@@ -429,7 +429,7 @@ footer span {
 text-transform:capitalize;
 
 color:white;
-font-size:14px;
+font-size:calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
 line-height:60px;
 
 }
