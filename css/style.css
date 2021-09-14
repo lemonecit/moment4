@@ -28,29 +28,27 @@ line-height:50px;
 
   .box1 span {
 
-    display: block;
-    height: 60px;
+    display: flex;
+    /* height: 60px; */
     background-color: #854242;
     border-radius: 10px;
-    line-height: 60px;
+    line-height: 30px;
     text-align: center;
     color: white;
-
 
   }
 
   .box2 span {
 
-    display: block;
-    height: 60px;
+    display: flex;
+    /* height: 60px; */
     background-color: #854242;
     border-radius: 10px;
-    line-height: 60px;
+    line-height: 30px;
     text-align: center;
     color: white;
+}
 
-
-  }
 
   h1 {
     font-family: "Arial Black", Gadget, sans-serif ;
@@ -531,7 +529,7 @@ margin-bottom:20px;
                 padding:5px;
                 background-color: #854242;
                 border-radius: 10px;
-                line-height: 40px;
+                line-height: 30px;
                 text-align: center;
                 color: white;
             
@@ -545,7 +543,7 @@ margin-bottom:20px;
                 padding:5px;
                 background-color: #854242;
                 border-radius: 10px;
-                line-height: 40px;
+                line-height: 30px;
                 text-align: center;
                 color: white;
             
