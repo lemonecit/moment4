@@ -9,35 +9,35 @@ Moment 4 - Responsive design
 
         /* search field with 65% in width  */
 
-        .search input[type="search"]{
-                width:65%;
-                margin-left:2px;
-                margin-right:2px;
-              }
+            .search input[type="search"]{
+                    width:65%;
+                    margin-left:2px;
+                    margin-right:2px;
+                }
 
         /* submit button for search field */
-        .search input[type="submit"] {
-                width: 25%;
-                margin-left:2px;
-                margin-right:2px;
-             }
+            .search input[type="submit"] {
+                    width: 25%;
+                    margin-left:2px;
+                    margin-right:2px;
+                }
 
-        .search form {
-                text-align:center;
-                line-height:50px;
-               }
+            .search form {
+                    text-align:center;
+                    line-height:50px;
+                }
 
-        .box1 span {
-                font-size: calc(20px + (22 - 20) * ((100vw - 550px) / (550 - 300)));
-                display: flex;
-                padding:5px;
-                background-color: #854242;
-                border-radius: 10px;
-                line-height: calc(45px + (55 - 45) * ((100vh - 550px) / (550 - 800)));
-                text-align: center;
-                color: white;
-                justify-content: center;
-              }
+            .box1 span {
+                    font-size: calc(20px + (22 - 20) * ((100vw - 550px) / (550 - 300)));
+                    display: flex;
+                    padding:5px;
+                    background-color: #854242;
+                    border-radius: 10px;
+                    line-height: calc(25px + (30 - 25) * ((100vh - 550px) / (550 - 800)));
+                    text-align: center;
+                    color: white;
+                    justify-content: center;
+                }
 
             .box2 span {
                 font-size: calc(20px + (22 - 20) * ((100vw - 550px) / (550 - 300)));
@@ -45,7 +45,7 @@ Moment 4 - Responsive design
                 padding:5px;
                 background-color: #854242;
                 border-radius: 10px;
-                line-height: calc(45px + (55 - 45) * ((100vh - 550px) / (550 - 800)));
+                line-height: calc(25px + (30 - 25) * ((100vh - 550px) / (550 - 800)));          
                 text-align: center;
                 color: white;
                 justify-content: center;
@@ -270,7 +270,7 @@ Moment 4 - Responsive design
                 padding:5px;
                 background-color: #854242;
                 border-radius: 10px;
-                line-height: calc(30px + (35 - 30) * ((100vh - 800px) / (800 - 550)));
+                line-height: calc(25px + (30 - 25) * ((100vh - 800px) / (800 - 550)));
                 text-align: center;
                 color: white;
                 justify-content: center;
@@ -282,7 +282,7 @@ Moment 4 - Responsive design
                 padding:5px;
                 background-color: #854242;
                 border-radius: 10px;
-                line-height: calc(30px + (35 - 30) * ((100vh - 800px) / (800 - 550)));
+                line-height: calc(25px + (30 - 25) * ((100vh - 800px) / (800 - 550)));
                 text-align: center;
                 color: white;
                 justify-content: center;
